@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Uplod Image</string>
+    <string name="permission_dialog">Accessing Location Permission requid</string>
+    <string name="go_to_permissions_setting">Go to App Settings and enable permissions</string>
+</resources>

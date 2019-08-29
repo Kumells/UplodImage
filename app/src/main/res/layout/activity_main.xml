@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="20dp">
+
+    <Button
+        android:id="@+id/btnbrowse"
+        android:text="Browse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/filename"
+        android:hint="enter name"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="120sp"
+        android:layout_width="200sp"
+        android:layout_height="40sp" />
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/filename"
+        android:layout_above="@id/btnuplod"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/btnuplod"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="50sp"
+        android:layout_alignParentBottom="true"
+        android:text="Upload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/toProfile"
+        android:layout_marginLeft="200sp"
+        android:layout_marginBottom="35dp"
+        android:layout_alignParentBottom="true"
+        android:textSize="20dp"
+        android:textColor="@color/biru"
+        android:text="Save to Profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+</RelativeLayout>
